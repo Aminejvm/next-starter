@@ -2,8 +2,8 @@
 import App from "next/app";
 import React from "react";
 import { ThemeProvider } from "@xstyled/styled-components";
-import Typography from "../commun/Typography";
-import theme from "../commun/theme";
+import theme from "../globalStyles/theme";
+import Reset from "../globalStyles/reset";
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
@@ -21,7 +21,7 @@ export default class MyApp extends App {
     return (
       <ThemeProvider theme={theme}>
         <>
-          <Typography />
+          <Reset />
           <Component {...pageProps} />
         </>
       </ThemeProvider>
