@@ -22,6 +22,7 @@
     "polished": "^3.4.2",
     "react": "^16.9.0",
     "react-dom": "16.9.0",
+    "serialize-javascript": "^2.1.1",
     "styled-components": "^4.4.0"
   },
   "devDependencies": {
