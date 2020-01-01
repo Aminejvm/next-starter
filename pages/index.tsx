@@ -1,5 +1,7 @@
 import React from "react";
 import Head from "next/head";
+import styled from "@xstyled/styled-components";
+
 import Nav from "../components/nav";
 
 const Home = () => (
@@ -10,7 +12,6 @@ const Home = () => (
     </Head>
 
     <Nav />
-
     <div className="hero">
       <h1 className="title">Welcome to Next.js!</h1>
       <p className="description">
